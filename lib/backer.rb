@@ -11,5 +11,6 @@ class Backer
     if @backers.include?(self) == true 
     else
     x.add_backer(self)
+    end
   end
 end
