@@ -6,6 +6,10 @@ class Backer
     @backed_projects = []
   end
   
+  def backed_projects
+    @backed_projects
+  end
+  
   def back_project(x)
     @backed_projects << x 
     if @backers.include?(self) == true 
