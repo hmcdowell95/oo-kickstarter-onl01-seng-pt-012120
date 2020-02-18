@@ -11,6 +11,7 @@ class Project
     if @backed_projects.include?(self) == true
     else
     x.back_project(self)
+    end
   end 
   
   
